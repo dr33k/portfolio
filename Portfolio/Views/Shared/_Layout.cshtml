@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 </head>
 <body>
-    <header>
+    <header id="header">
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-light box-shadow mb-3">
             <div class="container-fluid">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Dreek</a>
@@ -46,9 +46,10 @@
         </main>
     </div>
 
-    <footer class="footer text-muted">
-        <div class="container">
-            &copy; 2023 - Portfolio
+    <footer class="footer rounded container backdrop text-muted">
+        <div class="row p-3 justify-content-center justify-content-sm-between">
+            <div class="col-4">&copy; 2023 - Portfolio</div>
+            <a type="button" class="col-4 btn btn-primary" href="#header">back to top</a>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

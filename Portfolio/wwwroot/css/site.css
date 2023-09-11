@@ -42,3 +42,8 @@ body{
   height: 20%;
   max-width: 20%;
 }
+.ellipsis{
+  overflow:hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
